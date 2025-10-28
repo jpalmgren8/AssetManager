@@ -29,6 +29,25 @@ public class Vehicle extends Asset{
 
     @Override
     public double getValue() {
+
+        int currentYear = 2025;
+
+        int carAge = currentYear - year;
+
+        if (carAge <= 3) {
+            originalCost = originalCost - (originalCost * 0.03);
+        } else if (carAge <= 6) {
+            originalCost = originalCost - (originalCost * 0.06);
+        } else if (carAge <= 10) {
+            originalCost = originalCost - (originalCost * 0.08);
+        } else {
+            originalCost = 1000;
+        }
+
+        if (odometer > 100000 && (!makeModel.contains("Honda") || !makeModel.contains("Toyota"))) {
+            originalCost = originalCost - (originalCost * 0.25);
+        }
+
         return super.getValue();
     }
 

@@ -35,6 +35,23 @@ public class House extends Asset {
 
     @Override
     public double getValue() {
+
+        double lotSizePerSquareFoot = lotSize * 0.25;
+
+        double costPerSquareFoot = (originalCost / squareFoot) + lotSizePerSquareFoot;
+
+        if (costPerSquareFoot >= 180) {
+            condition = 1;
+        } else if (costPerSquareFoot <= 130 && costPerSquareFoot > 90) {
+            condition = 2;
+        } else if (costPerSquareFoot <= 90 && costPerSquareFoot > 80) {
+            condition = 3;
+        } else if (costPerSquareFoot <= 80) {
+            condition = 4;
+        } else {
+            condition = 4;
+        }
+
         return super.getValue();
     }
 

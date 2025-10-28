@@ -12,6 +12,15 @@ public class Asset {
         this.originalCost = originalCost;
     }
 
+    @Override
+    public String toString() {
+        return "Asset{" +
+                "description='" + description + '\'' +
+                ", dateAcquired='" + dateAcquired + '\'' +
+                ", originalCost=" + originalCost +
+                '}';
+    }
+
     // GETTERS
 
     public String getDescription() {

@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3bcca06-b851-46be-bd23-d0b5b9f2da3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="f3bcca06-b851-46be-bd23-d0b5b9f2da3f" name="Changes" comment="Commit #1: 10/28/25&#10;&#10;Completed:&#10;- Setting up class structure&#10;- Made asset, house, and vehicle classes&#10;- Populated the classes with proper variables,&#10;constructors, getters, and setters&#10;- Made override methods for getValue&#10;- Created a main called asset menu for launching&#10;the application&#10;&#10;Working on: &#10;- Making array list of asset objects&#10;- Loading the array with assets/values&#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Asset.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/AssetMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/AssetMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +26,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "jpalmgren8"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/jpalmgren8/AssetManager",
+    "accountId": "ac77dcbc-936e-4916-9b02-e3065ed4ce7b"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -37,6 +49,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AssetMenu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
@@ -51,6 +64,19 @@
       <option name="presentableId" value="Default" />
       <updated>1761662283932</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit #1: 10/28/25&#10;&#10;Completed:&#10;- Setting up class structure&#10;- Made asset, house, and vehicle classes&#10;- Populated the classes with proper variables,&#10;constructors, getters, and setters&#10;- Made override methods for getValue&#10;- Created a main called asset menu for launching&#10;the application&#10;&#10;Working on: &#10;- Making array list of asset objects&#10;- Loading the array with assets/values&#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.">
+      <option name="closed" value="true" />
+      <created>1761663824841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1761663824841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit #1: 10/28/25&#10;&#10;Completed:&#10;- Setting up class structure&#10;- Made asset, house, and vehicle classes&#10;- Populated the classes with proper variables,&#10;constructors, getters, and setters&#10;- Made override methods for getValue&#10;- Created a main called asset menu for launching&#10;the application&#10;&#10;Working on: &#10;- Making array list of asset objects&#10;- Loading the array with assets/values&#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value." />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit #1: 10/28/25&#10;&#10;Completed:&#10;- Setting up class structure&#10;- Made asset, house, and vehicle classes&#10;- Populated the classes with proper variables,&#10;constructors, getters, and setters&#10;- Made override methods for getValue&#10;- Created a main called asset menu for launching&#10;the application&#10;&#10;Working on: &#10;- Making array list of asset objects&#10;- Loading the array with assets/values&#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value." />
   </component>
 </project>
