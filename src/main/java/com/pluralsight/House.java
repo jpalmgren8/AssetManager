@@ -52,6 +52,8 @@ public class House extends Asset {
             condition = 4;
         }
 
+        originalCost = condition;
+
         return super.getValue();
     }
 

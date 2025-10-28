@@ -13,8 +13,12 @@ public class AssetMenu {
         assets.add(new Vehicle("Julian's Sedan", "10/28/25", 9000, "Chevy Impala", 2012, 90000));
         assets.add(new Vehicle("Noah's Sedan", "10/28/25", 20000, "Hyundai Elantra", 2018, 95000));
 
+        // For loop for displaying description, date acquired, original asset cost, and calculated value
+
         for (Asset a : assets) {
-            System.out.println(a.getValue());
+            System.out.println(a.description + " | " + a.dateAcquired + " | " + a.originalCost + " | " + a.getValue());
         }
+
+
     }
 }
