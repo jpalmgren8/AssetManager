@@ -11,6 +11,7 @@ public class Cash extends Asset {
 
     public int getCashAmount() {
         return cashAmount;
+
     }
 
     public void setCashAmount(int cashAmount) {
