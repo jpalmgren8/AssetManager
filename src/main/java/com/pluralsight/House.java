@@ -33,6 +33,9 @@ public class House extends Asset {
         return lotSize;
     }
 
+    // This getValue method will need reversed.
+    // I was finding the condition not square foot price.
+
     @Override
     public double getValue() {
 

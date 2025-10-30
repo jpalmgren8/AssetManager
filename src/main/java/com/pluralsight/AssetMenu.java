@@ -15,8 +15,23 @@ public class AssetMenu {
 
         // For loop for displaying description, date acquired, original asset cost, and calculated value
 
-        for (Asset a : assets) {
-            System.out.println(a.description + " | " + a.dateAcquired + " | " + a.originalCost + " | " + a.getValue());
+//        for (Asset a : assets) {
+//            System.out.println(a.description + " | " + a.dateAcquired + " | " + a.originalCost + " | " + a.getValue());
+//        }
+
+        for (Asset asset : assets) {
+            System.out.println(asset.getDescription());
+            System.out.println(asset.getOriginalCost());
+            System.out.println(asset.getDateAcquired());
+            System.out.println(asset.getValue());
+            if (asset instanceof House) {
+                House house = (House) asset;
+                System.out.println("House at" + house.getAddress());
+            } else if (asset instanceof Vehicle) {
+                Vehicle vehicle = (Vehicle) asset;
+                System.out.println("Vehicle: " + vehicle.getYear() + " " + vehicle.getMakeModel());
+            }
+            System.out.println();
         }
 
 

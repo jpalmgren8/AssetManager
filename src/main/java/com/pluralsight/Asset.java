@@ -1,6 +1,6 @@
 package com.pluralsight;
 
-public class Asset {
+public abstract class Asset {
 
     protected String description;
     protected String dateAcquired;
@@ -34,10 +34,10 @@ public class Asset {
     public double getOriginalCost() {
         return originalCost;
     }
-    // Might be a duplicate of getOriginalCost getter method
-    public double getValue() {
-        return originalCost;
-    }
+
+    // ABSTRACT method for getting value
+
+    public abstract double getValue();
 
     // SETTERS
 

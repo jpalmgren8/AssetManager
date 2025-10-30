@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3bcca06-b851-46be-bd23-d0b5b9f2da3f" name="Changes" comment="Commit #2: 10/28/25&#10;&#10;Completed:&#10;- Made overrided methods for getValue for both&#10;vehicle and house classes&#10;- getValue method for house calculates the condition&#10;and value of the house&#10;- getValue method for vehicle calculates the value&#10;mostly using car age, odometer level, and make/model&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.">
+    <list default="true" id="f3bcca06-b851-46be-bd23-d0b5b9f2da3f" name="Changes" comment="Commit #3: 10/28/25&#10;&#10;Completed:&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;- For loop now includes final calculated value of asset class type&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.&#10;- using instanceOf to display make/model and address">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Asset.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Asset.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/AssetMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/AssetMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/House.java" afterDir="false" />
     </list>
@@ -24,21 +25,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "jpalmgren8"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jpalmgren8&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/jpalmgren8/AssetManager",
-    "accountId": "ac77dcbc-936e-4916-9b02-e3065ed4ce7b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jpalmgren8/AssetManager&quot;,
+    &quot;accountId&quot;: &quot;ac77dcbc-936e-4916-9b02-e3065ed4ce7b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="34hOLZAuUJNj2qiXwHmwcLyHyjW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -50,9 +51,25 @@
     "Application.AssetMenu.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Student/pluralsight/workbook-5/AbstractAssets"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="AbstractAssets" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="AbstractAssets" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -78,12 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1761674313251</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit #3: 10/28/25&#10;&#10;Completed:&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;- For loop now includes final calculated value of asset class type&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.&#10;- using instanceOf to display make/model and address">
+      <option name="closed" value="true" />
+      <created>1761677531984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761677531984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit #1: 10/28/25&#10;&#10;Completed:&#10;- Setting up class structure&#10;- Made asset, house, and vehicle classes&#10;- Populated the classes with proper variables,&#10;constructors, getters, and setters&#10;- Made override methods for getValue&#10;- Created a main called asset menu for launching&#10;the application&#10;&#10;Working on: &#10;- Making array list of asset objects&#10;- Loading the array with assets/values&#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value." />
     <MESSAGE value="Commit #2: 10/28/25&#10;&#10;Completed:&#10;- Made overrided methods for getValue for both&#10;vehicle and house classes&#10;- getValue method for house calculates the condition&#10;and value of the house&#10;- getValue method for vehicle calculates the value&#10;mostly using car age, odometer level, and make/model&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value." />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit #2: 10/28/25&#10;&#10;Completed:&#10;- Made overrided methods for getValue for both&#10;vehicle and house classes&#10;- getValue method for house calculates the condition&#10;and value of the house&#10;- getValue method for vehicle calculates the value&#10;mostly using car age, odometer level, and make/model&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value." />
+    <MESSAGE value="Commit #3: 10/28/25&#10;&#10;Completed:&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;- For loop now includes final calculated value of asset class type&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.&#10;- using instanceOf to display make/model and address" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit #3: 10/28/25&#10;&#10;Completed:&#10;- Implemented a for loop for going through the Assets&#10;array list elements&#10;- For loop now includes final calculated value of asset class type&#10;&#10;Working on: &#10;- Creating a loop to cycle through the asset&#10;array and displaying each asset, date acquired, how much originally paid, and calculated value.&#10;- using instanceOf to display make/model and address" />
   </component>
 </project>
